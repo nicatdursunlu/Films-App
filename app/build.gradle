@@ -52,13 +52,13 @@ dependencies {
 
 //    Retrofit and Gson
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gaon:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
 //    Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
 
 //    Lifecycle Extensions
-    implementation 'android.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 
 //    Room and RxJava Support
     implementation 'androidx.room:room-runtime:2.2.5'

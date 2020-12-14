@@ -6,7 +6,7 @@
     android:padding="@dimen/_4sdp">
 
     <View
-        android:id="@id/viewSuppoerter"
+        android:id="@+id/viewSupporter"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_10sdp"
         app:layout_constraintTop_toBottomOf="@id/imageTvShow"/>
