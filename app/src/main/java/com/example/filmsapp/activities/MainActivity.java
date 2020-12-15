@@ -1,8 +1,10 @@
-package com.example.filmsapp;
+package com.example.filmsapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.filmsapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
