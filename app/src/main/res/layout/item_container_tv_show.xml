@@ -68,7 +68,7 @@
             android:textSize="@dimen/_12ssp"
             app:layout_constraintEnd_toEndOf="@id/textName"
             app:layout_constraintStart_toStartOf="@id/textName"
-            app:layout_constraintBottom_toBottomOf="@id/textName" />
+            app:layout_constraintTop_toBottomOf="@id/textName" />
 
         <TextView
             android:id="@+id/textStarted"
@@ -81,7 +81,7 @@
             android:textSize="@dimen/_12ssp"
             app:layout_constraintEnd_toEndOf="@id/textName"
             app:layout_constraintStart_toStartOf="@id/textName"
-            app:layout_constraintTop_toBottomOf="@id/textName" />
+            app:layout_constraintTop_toBottomOf="@id/textNetwork" />
 
         <TextView
             android:id="@+id/textStatus"
