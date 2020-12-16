@@ -27,7 +27,7 @@ public class TVShowDetails {
     @SerializedName("episodes")
     private List<Episode> episodes;
 
-    
+
     public String getUrl() {
         return url;
     }
