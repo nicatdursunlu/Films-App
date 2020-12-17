@@ -34,7 +34,11 @@ public class TVShowDetailsActivity extends AppCompatActivity {
         tvShowDetailsViewModel.getTVShowDetails(tvShowId).observe(
                 this, tvShowDetailsResponse -> {
                     activityTVShowDetailsBinding.setIsLoading(false);
-                    Toast.makeText(getApplicationContext(), tvShowDetailsResponse.getTvShowDetails().getUrl(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(
+                            getApplicationContext(),
+                            tvShowDetailsResponse.getTvShowDetails().getUrl(),
+                            Toast.LENGTH_LONG
+                    ).show();
                 }
         );
     }
