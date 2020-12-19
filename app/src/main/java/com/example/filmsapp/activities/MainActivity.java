@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
                 }
             }
         });
+        activityMainBinding.imageWatchlist.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), WatchlistActivity.class)));
         getMostPopularTVShows();
     }
 
