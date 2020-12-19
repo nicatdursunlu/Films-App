@@ -53,7 +53,8 @@
                 android:layout_marginEnd="@dimen/_8sdp"
                 android:src="@drawable/ic_watchlist"
                 android:padding="@dimen/_2sdp"
-                app:tint="@color/ColorTextIcons" />
+                app:tint="@color/ColorTextIcons"
+                />
 
             <ImageView
                 android:id="@+id/imageSearch"
